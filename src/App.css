@@ -28,3 +28,22 @@ a, a:hover, a:visited, a:active {
   height: 3rem;
   border-radius: 10rem;
 }
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.first{
+  font-size: 3rem;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  border: 0.2rem solid #bb035f;
+  padding: 2.5rem;
+}
+.sec{
+  width: 38rem;
+}

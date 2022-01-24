@@ -7,16 +7,16 @@ function Navbar() {
     return <nav>
         <ul>
             <a href="/">
-                <li><AiTwotoneHome size={23} /></li>
+                <li><AiTwotoneHome size={26} /></li>
             </a>
             <a href="/">
-                <li><AiFillBook size={23} /></li>
+                <li><AiFillBook size={26} /></li>
+            </a>
+            <a href="https://github.com/Dark-Knight-Rises">
+                <li><AiFillGithub size={26} /></li>
             </a>
             <a href="/">
-                <li><AiFillGithub size={23} /></li>
-            </a>
-            <a href="/">
-                <li><SiVisualstudiocode size={23} /></li>
+                <li><SiVisualstudiocode size={26} /></li>
             </a>
             <li>
                 <img src={pfp} alt="profile" className='pfp' />
