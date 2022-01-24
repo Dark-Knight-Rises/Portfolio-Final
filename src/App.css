@@ -17,7 +17,7 @@ body{
 }
 nav{
   margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 a, a:hover, a:visited, a:active {
   color: inherit;
@@ -37,6 +37,7 @@ a, a:hover, a:visited, a:active {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 4rem;
 }
 .first{
   font-size: 3rem;
@@ -46,4 +47,16 @@ a, a:hover, a:visited, a:active {
 }
 .sec{
   width: 38rem;
+}
+.card{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card--img{
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  filter: drop-shadow(25px 5px 30px crimson);
+  height: 15rem;
+  width: auto;
 }
