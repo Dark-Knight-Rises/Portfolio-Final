@@ -4,10 +4,18 @@ import { SiVisualstudiocode } from 'react-icons/si'
 function Navbar() {
     return <nav>
         <ul>
-            <li><AiTwotoneHome /></li>
-            <li><AiFillBook /></li>
-            <li><AiFillGithub /></li>
-            <li><SiVisualstudiocode /></li>
+            <a href="/">
+                <li><AiTwotoneHome size={23} /></li>
+            </a>
+            <a href="/">
+                <li><AiFillBook size={23} /></li>
+            </a>
+            <a href="/">
+                <li><AiFillGithub size={23} /></li>
+            </a>
+            <a href="/">
+                <li><SiVisualstudiocode size={23} /></li>
+            </a>
         </ul>
     </nav >;
 }
