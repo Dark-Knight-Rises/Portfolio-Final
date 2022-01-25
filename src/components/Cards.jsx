@@ -1,14 +1,12 @@
 import React from 'react';
 import example from './1.png'
-function Cards() {
+function Cards(props) {
     return <div className='card'>
         <div>
-            <h3>Meme Generator</h3>
-            <img src={example} className='card--img' alt="" />
-        </div>
-        <div>
-            <h3>Meme Generator 33334</h3>
-            <img src={example} className='card--img' alt="" />
+            <h3 className='card--title'>{props.name}</h3>
+            <a href={props.link}>
+                <img src={props.image} className='card--img' alt="" />
+            </a>
         </div>
     </div>;
 }
