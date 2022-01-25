@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiTwotoneHome, AiFillBook } from 'react-icons/ai'
-import { SiVisualstudiocode } from 'react-icons/si'
+import { SiLeetcode } from 'react-icons/si'
 import pfp from '../pfp.jpg'
 
 function Navbar() {
@@ -15,8 +15,8 @@ function Navbar() {
             <a href="https://github.com/Dark-Knight-Rises">
                 <li><AiFillGithub size={26} /></li>
             </a>
-            <a href="/">
-                <li><SiVisualstudiocode size={26} /></li>
+            <a href="https://leetcode.com/piyushIsBatman/">
+                <li><SiLeetcode size={26} /></li>
             </a>
             <li>
                 <img src={pfp} alt="profile" className='pfp' />

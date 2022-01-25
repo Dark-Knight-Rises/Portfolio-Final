@@ -14,19 +14,13 @@ export default [
     {
         id: 3,
         name: 'Binary Search vs Liner Search',
-        link: '',
-        image: ''
+        link: 'https://github.com/Dark-Knight-Rises/BinSearchVsLinear',
+        image: 'images/search.png'
     },
     {
         id: 4,
-        name: 'Binary Search vs Liner Search',
-        link: '',
-        image: ''
-    },
-    {
-        id: 5,
-        name: 'Binary Search vs Liner Search',
-        link: '',
-        image: ''
+        name: 'Bill Generator',
+        link: 'https://github.com/Dark-Knight-Rises/SalesTracker',
+        image: 'images/sale.png'
     }
 ]
