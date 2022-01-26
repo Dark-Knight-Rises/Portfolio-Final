@@ -9,7 +9,7 @@ function Navbar() {
             <a href="/">
                 <li><AiTwotoneHome size={26} /></li>
             </a>
-            <a href="/">
+            <a href="https://github.com/Dark-Knight-Rises/Portfolio-Final/raw/master/src/components/Piyush_CV.pdf">
                 <li><AiFillBook size={26} /></li>
             </a>
             <a href="https://github.com/Dark-Knight-Rises">
